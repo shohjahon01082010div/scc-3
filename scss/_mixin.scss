@@ -1,0 +1,6 @@
+@mixin tortburchak($color, $raqam1, $raqam2) {
+  width: $raqam1;
+  height: $raqam2;
+  background-color: $color;
+  margin: 20px;
+}

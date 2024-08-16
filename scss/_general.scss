@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.katta {
+  @include tortburchak(red, 200px, 300px);
+}
+
+.ortacha {
+  @include tortburchak(blue, 400px, 100px);
+}
+
+.kichkina {
+  @include tortburchak(green, 500px, 60px);
+}
